@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.buttonsContainer button {
+    
+    background-color: transparent;
+    border: 0px;
+    position: relative;
+    top: 100px;
+    
+}
+.inactive {
+    width: 100%;
+    height: 100vh;
+    background-image: url(BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: none;
+    overflow: hidden;
+}
+
+.items {
+    width: 90%;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;    
+   
+    
+}
+
+.centerContainer {
+    width: 50%;
+    height: 50vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    background: linear-gradient(360deg, #3F2678 0%, rgba(63, 38, 120, 0.3) 100%);
+    border: 1px solid #94b4cb;
+    border-radius: 40px 0 40px 0;
+    
+}
+
+.button {
+    width: 210px;
+}
+
+.buttonsContainer {
+    width: 50%;
+    height: 100px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content:space-between;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+    position: relative;
+    top: 30vh;
+    
+    }
+
+.icon {
+    width: 100px;
+}
+
+.text {
+    font-family: 'Myriad Pro';
+    color: white;
+    font-size: 1.1rem;
+}
+
+.textIcon {
+    width: 70%;
+    height: auto;
+ display: -webkit-flex;
+ display: -moz-flex;
+ display: -ms-flex;
+ display: -o-flex;
+ display: flex;   
+    justify-content: space-around;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.clock {
+    width: 250px;
+    position: absolute;
+    top: 5vh;
+}
+
+
+
+.active {
+        width: 100%;
+    height: 100vh;
+    background-image: url(BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+@media screen and (max-height:1150px) {
+    .buttonsContainer{
+
+        
+    }
+}
